@@ -9,3 +9,4 @@ loc=By.XPATH,"//*[contains(@text,'WLAN')]"
 print(type(loc))
 print(loc)
 
+
