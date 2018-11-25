@@ -23,6 +23,7 @@ class TestLogin():
         # 输入密码
         self.login.page_input_password(pwd)
         # 点击登录
+
         self.login.page_click_login_btn()
 if __name__ == '__main__':
     pytest.main("-s test_login.py")
